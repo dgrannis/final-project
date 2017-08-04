@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Basketball Game</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <%= erb :base%>
+    <div class="container">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://s.yimg.com/uu/api/res/1.2/9H.VChUk1iJTKpQ4zEEdSg--/aD02OTE7dz0xMDI0O3NtPTE7YXBwaWQ9eXRhY2h5b24-/http://media.zenfs.com/en_us/News/afp.com/Part-GTY-541525542-1-1-0.jpg">
+        </div>
+        <div class="card-content">
+          <p class="card-text">You're playing defense against your opponent! Get ready to stop him or get embarassed. Is your opponent getting ready to drive? Oh wait is he going to shoot?? What should you do?</p>
+        </div>
+      <div>
+        <!--<div class="right-align" id="right-button">-->
+        <!--  <a href="/steal"><button type="button" class="button-padding btn-large">Steal!</button></a>-->
+        <!--</div>-->
+        <!--<div class="left-align" id="left-button">-->
+        <!--  <a href="/contest"><button type="button" class="button-padding btn-large">Contest!</button></a>-->
+         <div class="container">
+        <div class="row">
+            <div class="col s3 offset-s3">
+            <a href="/steal"><button type="button" class="button-padding btn-large">Steal!</button></a>
+            </div>
+            <div class="col s3">
+              <a href="/contest"><button type="button" class="button-padding btn-large">Contest!</button></a>
+            </div>
+          
+      </div>
+      </div>
+  </body>
+</html>

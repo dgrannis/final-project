@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Basketball Game</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <%= erb :base%>
+    <div class="container">
+      <div class="card">
+        <div class="card-image">
+          <img src=<%=@gif_crossover_yes%>>
+        </div>
+        <div class="card-content">
+            <p class="card-text">Damn! You crossed your opponent and took away there ankles. Now you can perform a Jumpshot, Dunk or a Layup all UNCONTESTED!</p>
+        </div>
+        
+      <!--  <div class="card-action">-->
+      <!--           <div class="right-align" id="right-button">-->
+      <!--    <a href="/layup"><button type="button" class="button-padding btn-large">Layup!</button></a>-->
+      <!--  </div>-->
+      <!--  <div class="left-align" id="left-button">-->
+      <!--    <a href="/shoot"><button type="button" class="button-padding btn-large">Shoot!</button></a>-->
+      <!--  </div>-->
+      <!--   <div class="center-align" id="middle-button">-->
+      <!--    <a href="/crossover"><button type="button" class="button-padding btn-large">Crossover!</button></a>-->
+      <!--  </div>-->
+      <!--  <div class="center-alight" id="center-button">-->
+      <!--    <a href="/dunk"><button type="button" class="button-padding btn-large">Dunk!</button></a>-->
+      <!--    </div>-->
+      <!--</div>-->
+      <div class="container">
+        <div class="row">
+            <div class="col s4">
+              <a href="/layup_uncontested"><button type="button" class="button-padding btn-large">Layup!😇</button></a>
+            </div>
+            <div class="col s4">
+              <a href="/shoot_uncontested"><button type="button" class="button-padding btn-large">Shoot!😭</button></a>
+            </div>
+            <div class="col s4">
+              <a href="/dunk"><button type="button" class="button-padding btn-large">Dunk!😍</button></a>
+            </div>
+          
+        </div>
+        <div class="row">
+          
+        </div>
+       </div>
+        </div>
+      </div>
+      <div>
+ 
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--  <head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Basketball Game</title>-->
+    <!-- Compiled and minified CSS -->
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">-->
+    <!-- Compiled and minified JavaScript -->
+<!--    <link rel="stylesheet" href="stylesheets/style.css"/>-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>-->
+<!--  </head>-->
+<!--  <body>-->
+<!--    <%= erb :base%>-->
+<!--    <div class="container">-->
+<!--      <div class="card">-->
+<!--        <div class="card-image">-->
+<!--          <img src="http://www.totalprosports.com/wp-content/uploads/2014/03/25-norris-cole-2-anlke-breaker-gifs.gif">-->
+<!--        </div>-->
+<!--        <div class="card-content">-->
+<!--          <p class="card-text">Damn! You crossed player2. You can shoot or go for a layup uncontested! </p>-->
+<!--        </div>-->
+<!--        <div class="card-action">-->
+<!--                 <div class="right-align" id="right-button">-->
+<!--          <a href="/layup_uncontested"><button type="button" class="button-padding btn-large">Layup!</button></a>-->
+<!--        </div>-->
+<!--        <div class="left-align" id="left-button">-->
+<!--          <a href="/shoot_uncontested"><button type="button" class="button-padding btn-large">Shoot!</button></a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div>-->
+ 
+<!--    </div>-->
+<!--  </body>-->
+<!--</html>-->

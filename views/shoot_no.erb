@@ -1,0 +1,38 @@
+start<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Basketball Game</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  </head>
+  <body>
+      <div class="container">
+              <div class="card">
+                <div class="card-image">
+                  <img src=<%=@gif_shot_no%>>
+                </div>
+                <div class="card-content">
+                  <p class="card-text">You missed your shot! Ok, you rebounded the ball back at the three point line! Drive or shoot?</p>
+      <!--          </div>-->
+      <!--            <div class="right-align" id="right-button">-->
+      <!--            <a href="/shoot"><button type="button" class="button-padding btn-large">Shoot!</button></a>-->
+      <!--          </div>-->
+      <!--          <div class="left-align" id="left-button">-->
+      <!--            <a href="/layup"><button type="button" class="button-padding btn-large">Layup!</button></a>-->
+      <!--</div>-->
+      <div class="row">
+            <div class="col s3 offset-s3">
+              <a href="/layup"><button type="button" class="button-padding btn-large">Layup!😇</button></a>
+            </div>
+            <div class="col s3">
+              <a href="/shoot"><button type="button" class="button-padding btn-large">Shoot!😭</button></a>
+            </div>
+                
+      </div>
+      
+  </body>
+</html>
